@@ -1,4 +1,6 @@
 # presto-ignite-connector-plugin
+This connector will help you to query the ignite(https://ignite.apache.org) in memeory database from presto. which in turn help you to join ignite data with other database(like cassandra,hive,etc).
+
 
 Steps to build the jar
 1. Build the jar using below command
