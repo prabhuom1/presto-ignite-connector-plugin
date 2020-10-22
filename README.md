@@ -16,6 +16,7 @@ Steps to build the jar
 6. Copy the newly build jar ignite-presto-connector-331-0.0.1-SNAPSHOT-jar-with-dependencies.jar to <presto-server>/plugin/ignite
    
 7.create a presto catalog file  <presto-server>/etc/catalog/ignite.properties and add the below content.change the ip and password accordingly
+   
       connector.name=ignite
       connection-url=jdbc:ignite:thin://localhost:10800
       ignite.user=ignite
@@ -25,7 +26,12 @@ Steps to build the jar
 
 Note:- This connector build aginst prestosql version 331 and ignite jdbc driver 2.7.0
 It supports below functaionality
-1.Select,insert,alter(add and drop column)
+
+      1.Select
+   
+      2.insert
+   
+      3.alter(add and drop column)
 
   
   
